@@ -1,5 +1,5 @@
-var token = "token_bot";
-var SheetID = "Sheet_id";
+var token = "token_bot"; //change with your bot token
+var SheetID = "Sheet_id"; //change with your sheed Id
 
 function doPost(e) {
   var stringJson = e.postData.getDataAsString();
